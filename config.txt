@@ -62,10 +62,10 @@ dtoverlay=ramoops
 
 # Enable the UART (/dev/ttyS0)
 enable_uart=1
+dtoverlay=tpm-slb9670
 
 [cm4]
 # Raspberry Pi CM4-only settings
 
 # For the CM4 I/O board, USB is disabled by default. This enables it.
 dtoverlay=dwc2,dr_mode=host
-
