@@ -1,0 +1,1 @@
+source "$NERVES_DEFCONFIG_DIR/package/tpm2-tss-engine/Config.in"
