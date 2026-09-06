@@ -1,7 +1,9 @@
 defmodule NervesSystemRpi4.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
+  # Fork build: artifact_sites below is derived from this, so prebuilt
+  # artifacts are fetched from the fork's GitHub releases rather than upstream's.
+  @github_organization "lawik"
   @app :nerves_system_rpi4
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
